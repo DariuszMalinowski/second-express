@@ -26,7 +26,7 @@ router.post('/testimonials', (req, res) => {
   const newItem = {
     id: Date.now(),
     author,
-    text
+    text,
   };
 
   db.testimonials.push(newItem);

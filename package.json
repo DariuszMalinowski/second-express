@@ -1,14 +1,14 @@
 {
-  "name": "second-express",
+  "name": "express",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/DariuszMalinowski/second-express#readme",
+  "homepage": "https://github.com/DariuszMalinowski/express-tech#readme",
   "bugs": {
-    "url": "https://github.com/DariuszMalinowski/second-express/issues"
+    "url": "https://github.com/DariuszMalinowski/express-tech/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DariuszMalinowski/second-express.git"
+    "url": "git+https://github.com/DariuszMalinowski/express-tech.git"
   },
   "license": "MIT",
   "author": "Malina",
@@ -20,9 +20,9 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
-  },
-  "devDependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "express-handlebars": "^3.1.0",
     "nodemon": "^3.1.14"
   }
 }
